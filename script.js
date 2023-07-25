@@ -1450,3 +1450,540 @@
 
 	} );
 }());
+
+
+
+
+
+const boxshadow = document.querySelectorAll(".box-icon-modern");
+const li = document.querySelectorAll(".li");
+const th = document.querySelectorAll(".th");
+const theme = document.querySelector(".theme");
+const def = document.querySelector(".def");
+const light = document.querySelector(".light");
+const dark = document.querySelector(".dark");
+const ps1 = document.querySelector("#particles-js")
+
+def.addEventListener("click", function () { 
+	const darkThemeMq = window.matchMedia("(prefers-color-scheme: light)");
+	if (darkThemeMq.matches) {
+		theme.className = "rd-navbar-share theme fa-regular fa-sun light li";
+		th.forEach(i => {
+			i.classList.remove("darkm");
+		});
+		li.forEach(i => {
+			i.classList.remove("darkl");
+		});
+		boxshadow.forEach(i => {
+			i.classList.remove("shadow");
+		})
+				particlesJS( 'particles-js', {
+				"particles":     {
+					"number":      {
+						"value":   200,
+						"density": {
+							"enable":     true,
+							"value_area": 800
+						}
+					},
+					"color":       {
+						"value": "#ffffff"
+					},
+					"shape":       {
+						"type":    "circle",
+						"stroke":  {
+							"width": 0,
+							"color": "#000000"
+						},
+						"polygon": {
+							"nb_sides": 5
+						},
+						"image":   {
+							"src":    "img/github.svg",
+							"width":  100,
+							"height": 100
+						}
+					},
+					"opacity":     {
+						"value":  0.5,
+						"random": false,
+						"anim":   {
+							"enable":      false,
+							"speed":       1,
+							"opacity_min": 0.1,
+							"sync":        false
+						}
+					},
+					"size":        {
+						"value":  5,
+						"random": true,
+						"anim":   {
+							"enable":   false,
+							"speed":    40,
+							"size_min": 0.1,
+							"sync":     false
+						}
+					},
+					"line_linked": {
+						"enable":   true,
+						"distance": 150,
+						"color":    "#ffffff",
+						"opacity":  0.4,
+						"width":    1
+					},
+					"move":        {
+						"enable":    true,
+						"speed":     6,
+						"direction": "none",
+						"random":    true,
+						"straight":  false,
+						"out_mode":  "out",
+						"attract":   {
+							"enable":  false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events":    {
+						"onhover": {
+							"enable": true,
+							"mode":   "grab"
+						},
+						"onclick": {
+							"enable": true,
+							"mode":   "push"
+						},
+						"resize":  true
+					},
+					"modes":     {
+						"grab":    {
+							"distance":    400,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble":  {
+							"distance": 400,
+							"size":     40,
+							"duration": 2,
+							"opacity":  8,
+							"speed":    3
+						},
+						"repulse": {
+							"distance": 200
+						},
+						"push":    {
+							"particles_nb": 4
+						},
+						"remove":  {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true,
+				"config_demo":   {
+					"hide_card":           false,
+					"background_color":    "#b61924",
+					"background_image":    "",
+					"background_position": "50% 50%",
+					"background_repeat":   "no-repeat",
+					"background_size":     "cover"
+				}
+			} )
+		
+		
+
+	} else {
+		theme.className = "rd-navbar-share theme fa-regular fa-moon dark li";
+		th.forEach(i => {
+			i.classList.add("darkm");
+		});
+		li.forEach(i => {
+			i.classList.add("darkl");
+		});
+		boxshadow.forEach(i => {
+			i.classList.add("shadow");
+		})
+				particlesJS( 'particles-js', {
+				"particles":     {
+					"number":      {
+						"value":   200,
+						"density": {
+							"enable":     true,
+							"value_area": 800
+						}
+					},
+					"color":       {
+						"value": "#0d1117"
+					},
+					"shape":       {
+						"type":    "circle",
+						"stroke":  {
+							"width": 0,
+							"color": "#000000"
+						},
+						"polygon": {
+							"nb_sides": 5
+						},
+						"image":   {
+							"src":    "img/github.svg",
+							"width":  100,
+							"height": 100
+						}
+					},
+					"opacity":     {
+						"value":  0.5,
+						"random": false,
+						"anim":   {
+							"enable":      false,
+							"speed":       1,
+							"opacity_min": 0.1,
+							"sync":        false
+						}
+					},
+					"size":        {
+						"value":  5,
+						"random": true,
+						"anim":   {
+							"enable":   false,
+							"speed":    40,
+							"size_min": 0.1,
+							"sync":     false
+						}
+					},
+					"line_linked": {
+						"enable":   true,
+						"distance": 150,
+						"color":    "#0d1117",
+						"opacity":  0.4,
+						"width":    1
+					},
+					"move":        {
+						"enable":    true,
+						"speed":     6,
+						"direction": "none",
+						"random":    true,
+						"straight":  false,
+						"out_mode":  "out",
+						"attract":   {
+							"enable":  false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events":    {
+						"onhover": {
+							"enable": true,
+							"mode":   "grab"
+						},
+						"onclick": {
+							"enable": true,
+							"mode":   "push"
+						},
+						"resize":  true
+					},
+					"modes":     {
+						"grab":    {
+							"distance":    400,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble":  {
+							"distance": 400,
+							"size":     40,
+							"duration": 2,
+							"opacity":  8,
+							"speed":    3
+						},
+						"repulse": {
+							"distance": 200
+						},
+						"push":    {
+							"particles_nb": 4
+						},
+						"remove":  {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true,
+				"config_demo":   {
+					"hide_card":           false,
+					"background_color":    "#b61924",
+					"background_image":    "",
+					"background_position": "50% 50%",
+					"background_repeat":   "no-repeat",
+					"background_size":     "cover"
+				}
+			} )
+			
+		
+	}
+});
+
+light.addEventListener("click", function () { 
+	theme.className = "rd-navbar-share theme fa-regular fa-sun light li";
+	th.forEach(i => {
+			i.classList.remove("darkm");
+		});
+	li.forEach(i => {
+			i.classList.remove("darkl");
+	});
+	boxshadow.forEach(i => {
+			i.classList.remove("shadow");
+	})
+				particlesJS( 'particles-js', {
+				"particles":     {
+					"number":      {
+						"value":   200,
+						"density": {
+							"enable":     true,
+							"value_area": 800
+						}
+					},
+					"color":       {
+						"value": "#ffffff"
+					},
+					"shape":       {
+						"type":    "circle",
+						"stroke":  {
+							"width": 0,
+							"color": "#000000"
+						},
+						"polygon": {
+							"nb_sides": 5
+						},
+						"image":   {
+							"src":    "img/github.svg",
+							"width":  100,
+							"height": 100
+						}
+					},
+					"opacity":     {
+						"value":  0.5,
+						"random": false,
+						"anim":   {
+							"enable":      false,
+							"speed":       1,
+							"opacity_min": 0.1,
+							"sync":        false
+						}
+					},
+					"size":        {
+						"value":  5,
+						"random": true,
+						"anim":   {
+							"enable":   false,
+							"speed":    40,
+							"size_min": 0.1,
+							"sync":     false
+						}
+					},
+					"line_linked": {
+						"enable":   true,
+						"distance": 150,
+						"color":    "#ffffff",
+						"opacity":  0.4,
+						"width":    1
+					},
+					"move":        {
+						"enable":    true,
+						"speed":     6,
+						"direction": "none",
+						"random":    true,
+						"straight":  false,
+						"out_mode":  "out",
+						"attract":   {
+							"enable":  false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events":    {
+						"onhover": {
+							"enable": true,
+							"mode":   "grab"
+						},
+						"onclick": {
+							"enable": true,
+							"mode":   "push"
+						},
+						"resize":  true
+					},
+					"modes":     {
+						"grab":    {
+							"distance":    400,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble":  {
+							"distance": 400,
+							"size":     40,
+							"duration": 2,
+							"opacity":  8,
+							"speed":    3
+						},
+						"repulse": {
+							"distance": 200
+						},
+						"push":    {
+							"particles_nb": 4
+						},
+						"remove":  {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true,
+				"config_demo":   {
+					"hide_card":           false,
+					"background_color":    "#b61924",
+					"background_image":    "",
+					"background_position": "50% 50%",
+					"background_repeat":   "no-repeat",
+					"background_size":     "cover"
+				}
+			} )
+		
+});
+
+dark.addEventListener("click", function () { 
+	theme.className = "rd-navbar-share theme fa-regular fa-moon dark li";
+	th.forEach(i => {
+			i.classList.add("darkm");
+		});
+	li.forEach(i => {
+			i.classList.add("darkl");
+	});
+	boxshadow.forEach(i => {
+			i.classList.add("shadow");
+	})
+				particlesJS( 'particles-js', {
+				"particles":     {
+					"number":      {
+						"value":   200,
+						"density": {
+							"enable":     true,
+							"value_area": 800
+						}
+					},
+					"color":       {
+						"value": "#0d1117"
+					},
+					"shape":       {
+						"type":    "circle",
+						"stroke":  {
+							"width": 0,
+							"color": "#000000"
+						},
+						"polygon": {
+							"nb_sides": 5
+						},
+						"image":   {
+							"src":    "img/github.svg",
+							"width":  100,
+							"height": 100
+						}
+					},
+					"opacity":     {
+						"value":  0.5,
+						"random": false,
+						"anim":   {
+							"enable":      false,
+							"speed":       1,
+							"opacity_min": 0.1,
+							"sync":        false
+						}
+					},
+					"size":        {
+						"value":  5,
+						"random": true,
+						"anim":   {
+							"enable":   false,
+							"speed":    40,
+							"size_min": 0.1,
+							"sync":     false
+						}
+					},
+					"line_linked": {
+						"enable":   true,
+						"distance": 150,
+						"color":    "#0d1117",
+						"opacity":  0.4,
+						"width":    1
+					},
+					"move":        {
+						"enable":    true,
+						"speed":     6,
+						"direction": "none",
+						"random":    true,
+						"straight":  false,
+						"out_mode":  "out",
+						"attract":   {
+							"enable":  false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events":    {
+						"onhover": {
+							"enable": true,
+							"mode":   "grab"
+						},
+						"onclick": {
+							"enable": true,
+							"mode":   "push"
+						},
+						"resize":  true
+					},
+					"modes":     {
+						"grab":    {
+							"distance":    400,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble":  {
+							"distance": 400,
+							"size":     40,
+							"duration": 2,
+							"opacity":  8,
+							"speed":    3
+						},
+						"repulse": {
+							"distance": 200
+						},
+						"push":    {
+							"particles_nb": 4
+						},
+						"remove":  {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true,
+				"config_demo":   {
+					"hide_card":           false,
+					"background_color":    "#b61924",
+					"background_image":    "",
+					"background_position": "50% 50%",
+					"background_repeat":   "no-repeat",
+					"background_size":     "cover"
+				}
+			} )
+			
+});
