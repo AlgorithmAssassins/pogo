@@ -20287,3 +20287,25 @@ header{
 	color: #fff;
 	text-align: center;
 }
+
+
+.darkm{
+	background-color: #0d1117 !important;
+	color : #e6edf3 !important;
+}
+.darkl{
+	background-color: #0d1117 !important;
+	color : #e6edf3 !important;
+}
+
+.darkl :hover{
+	color: #e6edf3 !important;
+}
+
+.shadow {
+	box-shadow: 0 0 10px #e6edf3 !important;
+}
+
+.shadow:hover {
+	box-shadow: 0 0 10px #fff !important;
+}
