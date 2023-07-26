@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Athens",
+        "year" : 1896,
+        "stadium" : "Panathenaic Stadium",
+        "city" : "Athens",
+        "country" : "Greece",
+        "offset" : 2,
+        "trans" : "UTC+2",
+        "state" : "UTC+2",
+        "type" : "Summer",
+        "registryName" : "Athens1896",
+        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+
+    },
+    {
+        "name" : "Paris",
+        "year" : 1900,
+        "stadium" : "Vélodrome de Vincennes",
+        "city" : "Paris",
+        "country" : "France",
+        "offset" : 4,
+        "trans" : "UTC+4",
+        "state" : "UTC+4",
+        "type" : "Summer",
+        "registryName" : "Paris1900",
+        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/paris%201900.jpg"
+    },
+    {
+        "name" : "St. Louis",
+        "year" : 1904,
+        "stadium" : "Francis Field",
+        "city" : "St. Louis",
+        "country" : "United States",
+        "offset" : 6,
+        "trans" : "UTC+6",
+        "state" : "UTC+6",
+        "type" : "Summer",
+        "registryName" : "Stlouis1904",
+        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/st%20louis%201904.jpg"
+    }
+]
