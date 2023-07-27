@@ -3190,7 +3190,7 @@ section {
     width: 20em;
     height: 20em;
     left: -5em;
-    text-align: center;
+    justify-content: center;
     transition: box-shadow 0.5s ease-out;
     z-index: -1;
 }
