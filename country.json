@@ -11,7 +11,7 @@
         "bronze" : 36,
         "silver" : 43,
         "gold" : 43,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png"
 
     },
     {
@@ -26,7 +26,7 @@
         "bronze" : 93,
         "silver" : 95,
         "gold" : 96,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png"
 
     },{
         "city" : "St Louis",
@@ -40,7 +40,7 @@
         "bronze" : 91,
         "silver" : 92,
         "gold" : 97,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
 
     },{
         "city" : "London",
@@ -54,7 +54,7 @@
         "bronze" : 107,
         "silver" : 107,
         "gold" : 110,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
 
     },
     {
@@ -69,7 +69,7 @@
         "bronze" : 104,
         "silver" :106,
         "gold" : 101,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/383px-Flag_of_Sweden.svg.png"
 
     },
     {
@@ -84,7 +84,7 @@
         "bronze" : 136,
         "silver" : 146,
         "gold" : 155,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/800px-Flag_of_Belgium.svg.png"
 
     },{
         "city" : "Paris",
@@ -98,7 +98,7 @@
         "bronze" : 125,
         "silver" : 127,
         "gold" : 126,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png"
 
     },
     {
@@ -113,7 +113,7 @@
         "bronze" : 109,
         "silver" : 108,
         "gold" : 110,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/383px-Flag_of_the_Netherlands.svg.png"
 
     },
     {
@@ -128,7 +128,7 @@
         "bronze" : 114,
         "silver" : 116,
         "gold" : 116,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
 
     },
     {
@@ -143,7 +143,7 @@
         "bronze" : 139,
         "silver" : 138,
         "gold" : 141,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/383px-Flag_of_Germany.svg.png"
 
     },{
         "city" : "London",
@@ -157,7 +157,7 @@
         "bronze" : 138,
         "silver" : 135,
         "gold" : 138,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
 
     },
     {
@@ -172,7 +172,7 @@
         "bronze" : 158,
         "silver" : 152,
         "gold" : 149,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/383px-Flag_of_Finland.svg.png"
 
     },
     {
@@ -187,7 +187,7 @@
         "bronze" :163 ,
         "silver" :153,
         "gold" : 153,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/383px-Flag_of_Australia_%28converted%29.svg.png"
 
     },
     {
@@ -202,7 +202,7 @@
         "bronze" : 160,
         "silver" : 149,
         "gold" : 152,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/383px-Flag_of_Italy.svg.png"
 
     },{
         "city" : "Tokyo",
@@ -216,7 +216,7 @@
         "bronze" : 174,
         "silver" : 167,
         "gold" : 163,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/383px-Flag_of_Japan.svg.png"
 
     },
     {
@@ -231,7 +231,7 @@
         "bronze" : 183,
         "silver" : 180,
         "gold" : 174,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/383px-Flag_of_Mexico.svg.png"
 
     },{
         "city" : "Munich",
@@ -245,7 +245,7 @@
         "bronze" : 210,
         "silver" : 195,
         "gold" : 195,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/383px-Flag_of_Germany.svg.png"
 
     },
     {
@@ -260,7 +260,7 @@
         "bronze" : 216,
         "silver" : 199,
         "gold" : 198,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/383px-Flag_of_Canada_%28Pantone%29.svg.png"
 
     },{
         "city" : "Moscow",
@@ -274,7 +274,7 @@
         "bronze" : 223,
         "silver" : 204,
         "gold" : 204,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/383px-Flag_of_Russia.svg.png"
 
     },
     {
@@ -289,7 +289,7 @@
         "bronze" : 243,
         "silver" : 219,
         "gold" : 226,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/383px-Flag_of_the_United_States.svg.png"
 
     },{
         "city" : "Seoul",
@@ -303,7 +303,7 @@
         "bronze" : 264,
         "silver" : 234,
         "gold" : 241,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/383px-Flag_of_South_Korea.svg.png"
 
     },{
         "city" : "Barcelona",
@@ -317,7 +317,7 @@
         "bronze" : 298,
         "silver" : 257,
         "gold" : 260,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/300px-Bandera_de_Espa%C3%B1a.svg.png"
 
     },
     {
@@ -332,7 +332,7 @@
         "bronze" : 298,
         "silver" : 273,
         "gold" : 271,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/383px-Flag_of_the_United_States.svg.png"
 
     },{
         "city" : "Sydney",
@@ -346,7 +346,7 @@
         "bronze" : 327,
         "silver" : 300,
         "gold" : 300,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/383px-Flag_of_Australia_%28converted%29.svg.png"
 
     },
     {
@@ -361,7 +361,7 @@
         "bronze" : 325,
         "silver" : 300,
         "gold" : 301,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/383px-Flag_of_Greece.svg.png"
 
     },{
         "city" : "Beijing",
@@ -375,7 +375,7 @@
         "bronze" : 353,
         "silver" : 303,
         "gold" : 302,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/383px-Flag_of_the_People%27s_Republic_of_China.svg.png"
 
     },{
         "city" : "London",
@@ -389,7 +389,7 @@
         "bronze" : 353,
         "silver" : 305,
         "gold" : 303,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
 
     },
     {
@@ -404,7 +404,7 @@
         "bronze" : 359,
         "silver" : 307,
         "gold" : 306,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/364px-Flag_of_Brazil.svg.png"
 
     },{
         "city" : "Tokyo",
@@ -418,7 +418,7 @@
         "bronze" : 402,
         "silver" : 338,
         "gold" : 340,
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/383px-Flag_of_Japan.svg.png"
 
     },
     {
@@ -433,7 +433,7 @@
         "bronze" : "-",
         "silver" : "-",
         "gold" : "-",
-        "img" : "https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/athens%201896.jpg"
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/375px-Flag_of_France.svg.png"
 
     }
 ]
