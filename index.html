@@ -1,1146 +1,970 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html lang="en">
 
 <head>
-  <title>Home</title>
-  <meta name="format-detection" content="telephone=no">
-  <meta name="viewport"
-    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Stylesheets-->
-  <link rel="stylesheet" type="text/css"
-    href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500">
-  <link rel="stylesheet" href="./bootstrap.css">
-  <link rel="stylesheet" href="./fonts.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./style.css">
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
-  <style>
-    .ie-panel {
-      display: none;
-      background: #212121;
-      padding: 10px 0;
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
-      clear: both;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
-
-    html.ie-10 .ie-panel,
-    html.lt-ie-10 .ie-panel {
-      display: block;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>OGO</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
 </head>
-
 <body>
-  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
-        src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
-        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
-  </div>
-  <div class="preloader">
-    <div class="preloader-body">
-      <div class="cssload-container"><span></span><span></span><span></span><span></span>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src=".\images\new logo.png" class="mr-2" alt="logo"/></a>
       </div>
-    </div>
-  </div>
-  <div class="page">
-    <div id="home">
-      <!-- Page Header-->
-      <header class="section page-header" >
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap" >
-          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
-            data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
-            data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
-            data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
-            data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
-            data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-main-outer th" >
-              <div class="rd-navbar-main">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                   <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="./images/Untitled (223 × 50 px).png"
-                alt="" width="223" height="50" /></a></div>
-        </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap">
-                    <!-- RD Navbar Share-->
-                    <div class="rd-navbar-share theme fa-regular fa-sun li" style="display: none;" data-rd-navbar-toggle=".rd-navbar-share-list">
-                      <ul class="list-inline rd-navbar-share-list th">
-                        <li class="rd-navbar-share-list-item"><a class="icon fa-solid fa-display def li" href="#"></a></li>
-                        <li class="rd-navbar-share-list-item"><a class="icon fa-regular fa-sun light li"  href="#"></a></li>
-                        <li class="rd-navbar-share-list-item"><a class="icon fa-solid fa-moon dark li" href="#"></a></li>
-                      </ul>
-                    </div>
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link li" href="#home">Home</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link li" href="#services">Services</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link li" href="#projects">Events</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link li" href="#team">Team</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link li" href="#news">News</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link li" href="#contacts">Contacts</a></li>
-                    </ul>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="icon-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="ti-info-alt mx-0"></i>
                   </div>
                 </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-
-      <!-- Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true"
-        data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
-        <div class="swiper-wrapper text-center">
-          <div class="swiper-slide" data-slide-bg="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/3.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Olympics Games Oversight</h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Welcome to the exhilarating world of the Olympics, where the spirit of unity, inspiration, and triumph reigns supreme!</p><a class="button button-primary button-ujarak" href="#projects"
-                  data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Explore Events</a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide" data-slide-bg="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/1.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container" style="position: relative; left: 350px;color: #ddd;">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0" style="color: #ddd;">Unite,Inspire,Triumph</h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">The Global Olympics Celebration</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide" data-slide-bg="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/2.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container" style="color: #ddd; position: relative; left: -400px;">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0" style="color: #ddd;">Join the Olympics Community:</h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Connect with fellow enthusiasts, athletes, and fans in a vibrant and inclusive Olympics community.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Swiper Pagination-->
-        <div class="swiper-pagination__module">
-          <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span
-              class="swiper-pagination__fraction-divider">/</span><span
-              class="swiper-pagination__fraction-count">00</span></div>
-          <div class="swiper-pagination__divider"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-    </div>
-    <!-- See all services-->
-    <section class="section section-sm section-first bg-default text-center th"  id="services">
-      <div class="container">
-        <div class="row row-30 justify-content-center">
-          <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/torch%20replacement.jpg" alt=""
-              width="415" height="592" />
-          </div>
-          <div class="col-lg-7 col-xl-6">
-            <div class="row row-30">
-              <div class="col-sm-6 wow fadeInRight ">
-                <article class="box-icon-modern box-icon-modern-custom th">
-                  <div>
-                    <h3 class="box-icon-modern-big-title th">What We Offer</h3>
-                    <div class="box-icon-modern-decor"></div><a class="button button-primary button-ujarak"
-                      href="#services">Check our Services</a>
-                  </div>
-                </article>
-              </div>
-              <div class="col-sm-6 wow fadeInRight "  data-wow-delay=".1s">
-                <article class="box-icon-modern box-icon-modern-2 th" >
-                  <div class="box-icon-modern-icon fa-solid fa-trophy" style="color: #1d5d9b;"></div>
-                  <h5 class="box-icon-modern-title th"><a href=" ">Sports <br>Predictor</a></h5>
-                  <div class="box-icon-modern-decor"></div>
-                  <p class="box-icon-modern-text">Sports Predictor for the Ultimate Games.
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
                   </p>
-                </article>
-              </div>
-              <div class="col-sm-6 wow fadeInRight " data-wow-delay=".2s">
-                <article class="box-icon-modern box-icon-modern-2 th">
-                  <div class="box-icon-modern-icon fa-solid fa-magnifying-glass-chart" style="color: #1d5d9b;"></div>
-                  <h5 class="box-icon-modern-title th"><a href=" ">Badge <br>Analysis</a></h5>
-                  <div class="box-icon-modern-decor"></div>
-                  <p class="box-icon-modern-text">Analyzing the Olympic Games Finest Achievements.</p>
-                </article>
-              </div>
-              <div class="col-sm-6 wow fadeInRight " data-wow-delay=".3s">
-                <article class="box-icon-modern box-icon-modern-2 th">
-                  <div class="box-icon-modern-icon fa-solid fa-earth-asia" style="color: #1d5d9b;"></div>
-                  <h5 class="box-icon-modern-title th"><a href="./country.html">TimeLine</a></h5>
-                  <div class="box-icon-modern-decor"></div>
-                  <p class="box-icon-modern-text ">Get down the Memory Lane through Historic Olympic Timeline.</p>
-                </article>
-              </div>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
             </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src=".\images\Untitled design (1).png" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="ti-settings"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close ti-close"></i>
+          <p class="settings-heading">SIDEBAR SKINS</p>
+          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+          <p class="settings-heading mt-2">HEADER SKINS</p>
+          <div class="color-tiles mx-0 px-4">
+            <div class="tiles success"></div>
+            <div class="tiles warning"></div>
+            <div class="tiles danger"></div>
+            <div class="tiles info"></div>
+            <div class="tiles dark"></div>
+            <div class="tiles default"></div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Cta-->
-    <section class="section section-fluid bg-default">
-      <div class="parallax-container" data-parallax-img="./images/photo_6181659044184439322_w.jpg">
-        <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
-          <div class="container">
-            <div class="row row-30 justify-content-end text-right">
-              <div class="col-sm-7">
-                <h3 class="wow fadeInLeft">Experience the Olympic Extravaganza!</h3>
-                <p>Are you ready to immerse yourself in the world of sports and excellence? Join us for an unforgettable Olympic experience!</p>
-                <div class="group-sm group-middle group justify-content-end"><a
-                   class="button button-white-outline button-ujarak" href="#">Explore</a></div>
+      <div id="right-sidebar" class="settings-panel">
+        <i class="settings-close ti-close"></i>
+        <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="todo-tab" data-toggle="tab" href="#todo-section" role="tab" aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="chats-tab" data-toggle="tab" href="#chats-section" role="tab" aria-controls="chats-section">CHATS</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="setting-content">
+          <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+            <div class="add-items d-flex px-3 mb-0">
+              <form class="form w-100">
+                <div class="form-group d-flex">
+                  <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
+                  <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
+                </div>
+              </form>
+            </div>
+            <div class="list-wrapper px-3">
+              <ul class="d-flex flex-column-reverse todo-list">
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Team review meeting at 3.00 PM
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Prepare for presentation
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Resolve all the low priority tickets due today
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li class="completed">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox" checked>
+                      Schedule meeting for next week
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li class="completed">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox" checked>
+                      Project review
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+              </ul>
+            </div>
+            <h4 class="px-3 text-muted mt-5 font-weight-light mb-0">Events</h4>
+            <div class="events pt-4 px-3">
+              <div class="wrapper d-flex mb-2">
+                <i class="ti-control-record text-primary mr-2"></i>
+                <span>Feb 11 2018</span>
               </div>
+              <p class="mb-0 font-weight-thin text-gray">Creating component page build a js</p>
+              <p class="text-gray mb-0">The total number of sessions</p>
+            </div>
+            <div class="events pt-4 px-3">
+              <div class="wrapper d-flex mb-2">
+                <i class="ti-control-record text-primary mr-2"></i>
+                <span>Feb 7 2018</span>
+              </div>
+              <p class="mb-0 font-weight-thin text-gray">Meeting with Alisa</p>
+              <p class="text-gray mb-0 ">Call Sarah Graves</p>
             </div>
           </div>
+          <!-- To do section tab ends -->
+          <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+            <div class="d-flex align-items-center justify-content-between border-bottom">
+              <p class="settings-heading border-top-0 mb-3 pl-3 pt-0 border-bottom-0 pb-0">Friends</p>
+              <small class="settings-heading border-top-0 mb-3 pt-0 border-bottom-0 pb-0 pr-3 font-weight-normal">See All</small>
+            </div>
+            <ul class="chat-list">
+              <li class="list active">
+                <div class="profile"><img src="images/faces/face1.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Thomas Douglas</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">19 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
+                <div class="info">
+                  <div class="wrapper d-flex">
+                    <p>Catherine</p>
+                  </div>
+                  <p>Away</p>
+                </div>
+                <div class="badge badge-success badge-pill my-auto mx-2">4</div>
+                <small class="text-muted my-auto">23 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face3.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Daniel Russell</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">14 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
+                <div class="info">
+                  <p>James Richardson</p>
+                  <p>Away</p>
+                </div>
+                <small class="text-muted my-auto">2 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face5.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Madeline Kennedy</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">5 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face6.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Sarah Graves</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">47 min</small>
+              </li>
+            </ul>
+          </div>
+          <!-- chat tab ends -->
         </div>
       </div>
-    </section>
+    
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 grid-margin">
+              <div class="row">
+                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                  <h3 class="font-weight-bold">Olympic Events</h3>
+                  <h6 class="font-weight-normal mb-0">All events are running smoothly! You have <span class="text-primary">3 upcoming competitions!</span></h6>
 
-    <!-- Latest Projects-->
-    <section class="section section-sm section-fluid bg-default text-center" id="projects">
-      <div class="container-fluid">
-        <h2 class="wow fadeInLeft">Latest Projects</h2>
-       
-        <div class="isotope-filters isotope-filters-horizontal">
-          <button
-            class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha"
-            data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true"
-            data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
-          <ul class="isotope-filters-list" id="isotope-3">
-            <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">Oversight</a></li>
-            <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Summer Olympics</a></li>
-            <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Winter Olympics</a></li>
-            <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">Paralympics</a></li>
-            <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">Youth Olympics</a></li>
-          </ul>
-        </div>
-        <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery"
-        data-lightgallery="group">
-        
-        
-      
-        <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-          data-wow-delay=".3s">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-classic thumbnail-md">
-            <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_1_2023-07-23_11-39-48.jpg" alt="" width="420"
-                height="350" />
+                </div>
+                <div class="col-12 col-xl-4">
+                 <div class="justify-content-end d-flex">
+                  <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+                    <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <i class="mdi mdi-calendar"></i> <span id="currentDate">Today</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2" id="dateDropdown">
+                      <a class="dropdown-item" href="#">January - March</a>
+                      <a class="dropdown-item" href="#">March - June</a>
+                      <a class="dropdown-item" href="#">June - August</a>
+                      <a class="dropdown-item" href="#">August - November</a>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
             </div>
-            <div class="thumbnail-classic-caption">
-              <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                    src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                <h5 class="thumbnail-classic-title"><a href="#">Weightlifting</a></h5>
-              </div>
-              <p class="thumbnail-classic-text">Unleashing the Power Within: Inspiring Stories of Strength, Skill, and Glory</p>
-              </div>
-            </article>
           </div>
-          
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_4_2023-07-23_11-39-40.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">wheelchair tennis</a></h5>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card tale-bg">
+                <div class="card-people mt-auto">
+                  <img src=".\images\newolympic.jpg" alt="people">
+                 
                 </div>
-                <p class="thumbnail-classic-text">Wheelchair tennis is a highly competitive and dynamic sport that follows similar rules and principles as traditional tennis</p>
               </div>
-            </article>
-          </div>
-          
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1"
-          data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_1_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Tennis</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">tennis has been a part of the Olympic Games program for many years and is a highly popular and anticipated event at the Summer Olympics.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_4_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Basketball</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Basketball has a rich history at the Olympic Games and is one of the most popular and highly anticipated events during the Summer Olympics.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_2_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Swimming</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Swimming is one of the most popular and widely watched events at the Summer Olympics. It has been a part of the Olympic Games program since the first modern Olympics in 1896.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_8_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
-                      <h5 class="thumbnail-classic-title"><a href="#">Gymnastics</a></h5>
+            </div>
+            <div class="col-md-6 grid-margin transparent">
+              <div class="row">
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-tale">
+                    <div class="card-body">
+                      <p class="mb-4">Total Countries</p>
+                      <p class="fs-30 mb-2">205</p>
+                      <p>Participating countries</p>
                     </div>
-                    <p class="thumbnail-classic-text">Gymnastics is a captivating and highly popular sport at the Summer Olympics, showcasing the remarkable athleticism, grace, and precision of its participants.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_3_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Curling</a></h5>
+                  </div>
                 </div>
-                <p class="thumbnail-classic-text">Curling is a fascinating and unique winter sport that has been a part of the Winter Olympics since the 1998 Nagano Games.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
-            data-wow-delay=".1s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_9_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Bobsleigh</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Bobsleigh, often referred to as simply "bobsled," is an exciting and fast-paced winter sport that has been part of the Winter Olympics since the first Winter Games in 1924.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
-            data-wow-delay=".1s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_7_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Skiing</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Skiing is a popular and diverse sport featured prominently in the Winter Olympics. The term "skiing" encompasses various disciplines, each with its own unique challenges and thrills.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
-            data-wow-delay=".1s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_6_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Snow Skateboarding </a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Skateboarding made its debut as an Olympic sport at the 2020 Tokyo Summer Olympics, which were held in 2021.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
-            data-wow-delay=".1s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_5_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Ice Hockey</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">A high-octane team sport, ice hockey pits players against each other in fast-paced action, as they fiercely compete to score goals and defend their net with precision and passion.
-                </p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_1_2023-07-23_11-39-40.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
-                      <h5 class="thumbnail-classic-title"><a href="#">Wheelchair Rugby</a></h5>
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-dark-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Total Participants</p>
+                      <p class="fs-30 mb-2">9000</p>
+                      <p>Athletes and delegations</p>
                     </div>
-                <p class="thumbnail-classic-text">Also known as "murderball," wheelchair rugby is a highly physical and intense team sport for athletes with impairments affecting both the upper and lower limbs. </p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_2_2023-07-23_11-39-40.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Sitting Volleyball</a></h5>
+                  </div>
                 </div>
-                <p class="thumbnail-classic-text">Sitting volleyball is a modified version of able-bodied volleyball, designed for athletes with physical disabilities, particularly those who cannot stand or have limited mobility.</p>
               </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_5_2023-07-23_11-39-40.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Wheelchair Basketball</a></h5>
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                  <div class="card card-light-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Total Medals</p>
+                      <p class="fs-30 mb-2">650</p>
+                      <p>Medals won so far</p>
+                    </div>
+                  </div>
                 </div>
-                <p class="thumbnail-classic-text">Wheelchair basketball is a fast-paced and exciting sport played by athletes with physical disabilities who use wheelchairs.</p>
+                <div class="col-md-6 stretch-card transparent">
+                  <div class="card card-light-danger">
+                    <div class="card-body">
+                      <p class="mb-4">Total Events</p>
+                      <p class="fs-30 mb-2">300</p>
+                      <p>Events in the Olympics</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </article>
+            </div>
           </div>
-
-
-          
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1">
-                      <!-- Thumbnail Classic-->
-                      <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_10_2023-07-23_11-39-28.jpg" alt="" width="420"
-                          height="350" />
-                        </div>
-                        <div class="thumbnail-classic-caption">
-                          <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                              href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img
-                                src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350" /></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">Cycling</a></h5>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title">Olympics Statistics</p>
+                  <p class="font-weight-500">Here are some key statistics related to the Olympics and its events:</p>
+                  <div class="d-flex flex-wrap mb-5">
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Countries</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">205</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Participants</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">9000</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Medals</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">650</h3>
+                    </div>
+                    <div class="mt-3">
+                      <p class="text-muted">Events</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">300</h3>
+                    </div> 
+                  </div>
+                  <canvas id="order-chart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                 <div class="d-flex justify-content-between">
+                  <p class="card-title">Olympics Report</p>
+                 </div>
+                 <p class="font-weight-500">Explore the performance of the Olympics over the years with the number of countries, participants, and medals.</p>
+                  <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
+                  <canvas id="sales-chart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+              <div class="card position-relative">
+                <div class="card-body">
+                  <div id="detailedReports" class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+                            <div class="ml-xl-4 mt-3">
+                            <p class="card-title">Olympics Reports</p>
+                              <h1 class="text-primary">4678</h1>
+                              <h3 class="font-weight-500 mb-xl-4 text-primary">Total Medals Earned</h3>
+                              <p class="mb-2 mb-xl-0">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
+                            </div>  
+                            </div>
+                          <div class="col-md-12 col-xl-9">
+                            <div class="row">
+                              <div class="col-md-6 border-right">
+                                <div class="table-responsive mb-3 mb-md-0 mt-3">
+                                  <table class="table table-borderless report-table">
+                                    <tr>
+                                      <td class="text-muted">Illinois</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">713</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Washington</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">583</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Mississippi</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">924</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">California</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">664</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Maryland</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">560</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Alaska</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">793</h5></td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mt-3">
+                                <canvas id="north-america-chart"></canvas>
+                                <div id="north-america-legend"></div>
+                              </div>
+                            </div>
                           </div>
-                          <p class="thumbnail-classic-text">Pedal to victory as cyclists race on various terrains, showcasing endurance and speed in individual and team events, pushing the limits of human physicality.
-                          </p>
                         </div>
-                      </article>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+                            <div class="ml-xl-4 mt-3">
+                            <p class="card-title">Detailed Reports</p>
+                              <h1 class="text-primary">$34040</h1>
+                              <h3 class="font-weight-500 mb-xl-4 text-primary">North America</h3>
+                              <p class="mb-2 mb-xl-0">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
+                            </div>  
+                            </div>
+                          <div class="col-md-12 col-xl-9">
+                            <div class="row">
+                              <div class="col-md-6 border-right">
+                                <div class="table-responsive mb-3 mb-md-0 mt-3">
+                                  <table class="table table-borderless report-table">
+                                    <tr>
+                                      <td class="text-muted">Illinois</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">713</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Washington</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">583</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Mississippi</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">924</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">California</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">664</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Maryland</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">560</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Alaska</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">793</h5></td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mt-3">
+                                <canvas id="south-america-chart"></canvas>
+                                <div id="south-america-legend"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-          
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_3_2023-07-23_11-39-40.jpg" alt="" width="420"
-                  height="350" />
-                </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Para-Cycling</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Para-cycling is a cycling sport adapted for athletes with physical disabilities. There are various classifications within para-cycling, depending on the type and extent of the impairment. </p>
-              </div>
-            </article>
-          </div>
-
-
-
-          
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1"
-          data-wow-delay=".1s">
-          <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_11_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/photo_2023-07-22_14-18-03.jpg" data-lightgallery="item"><img
-                    src="images/photo_2023-07-22_14-18-03.jpg" alt="" width="420" height="350" /></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Football (Soccer)</a></h5>
+                    <a class="carousel-control-prev" href="#detailedReports" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#detailedReports" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                   </div>
-                <p class="thumbnail-classic-text">The beautiful game unfolds on the field, where players showcase their soccer prowess, teamwork, and goal-scoring abilities, captivating fans worldwide.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1"
-            data-wow-delay=".2s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_12_2023-07-23_11-39-28.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-3-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Volleyball</a></h5>
                 </div>
-                <p class="thumbnail-classic-text">Volleyball is a popular and fast-paced team sport played between two teams, each consisting of six players. The objective of the game is to score points by sending the ball over the net and into the opponent's court.</p>
               </div>
-            </article>
-          </div>
-
-          
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_2_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Triathlon</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Triathlon is a multi-sport endurance event that combines swimming, cycling, and running. </p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_7_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Wrestling</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Wrestling is a combat sport that involves grappling and controlling an opponent to win by pinning them to the ground or scoring points through various techniques.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_6_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Karate</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Karate is a martial art that combines striking and blocking techniques. The Youth Olympic Games include karate events, offering a platform for young karatekas to demonstrate their precise and powerful moves while competing against opponents from different countries.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_5_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Table Tennis</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Table tennis, also known as ping pong, is a fast-paced racket sport played on a table divided by a net. Players use small paddles to hit a lightweight ball back and forth, aiming to score points by forcing their opponent to miss or hit the ball out of bounds. </p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_4_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Shooting</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Shooting is a precision sport that involves using firearms to hit specified targets from varying distances.</p>
-              </div>
-            </article>
-          </div>
-
-
-          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 4"
-            data-wow-delay=".3s">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure"><img src="https://raw.githubusercontent.com/AlgorithmAssassins/AlgoAss/main/images/photo_3_2023-07-23_11-39-48.jpg" alt="" width="420"
-                  height="350" />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                    href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
-                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
-                  <h5 class="thumbnail-classic-title"><a href="#">Taekwondo</a></h5>
-                </div>
-                <p class="thumbnail-classic-text">Taekwondo is a Korean martial art known for its high-flying kicks and dynamic strikes. </p>
-              </div>
-            </article>
-          </div>
-
-          
-        </div>
-      </div>
-    </section>
-
-    <!-- Years of experience-->
-    <section class="section section-sm bg-default th">
-      <div class="container">
-        <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
-          <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href=" ">
-              <div id="particles-js"></div><span class="counter">10</span>
-            </a></div>
-          <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
-            <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
-              <h3 class="title-decoration-lines-left">Years of Olympics Analysis</h3>
-              <p class="text-gray-500">"Through 127 years of triumphs, trials, and transcendent moments, the Olympics have united the world in celebration of the human spirit."</p><a class="button button-secondary button-pipaluk" href=" ">Get in touch</a>
             </div>
           </div>
-          <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
-            <div class="row justify-content-center border-2-column offset-top-xl-26">
-              <div class="col-9 col-sm-6">
-                <div class="counter-amy">
-                  <div class="counter-amy-number"><span class="counter">11</span><span class="symbol">k</span>
+          <div class="row">
+            <div class="col-md-7 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title mb-0">Top Products</p>
+                  <div class="table-responsive">
+                    <table class="table table-striped table-borderless">
+                      <thead>
+                        <tr>
+                          <th>Product</th>
+                          <th>Price</th>
+                          <th>Date</th>
+                          <th>Status</th>
+                        </tr>  
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Search Engine Marketing</td>
+                          <td class="font-weight-bold">$362</td>
+                          <td>21 Sep 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-success">Completed</div></td>
+                        </tr>
+                        <tr>
+                          <td>Search Engine Optimization</td>
+                          <td class="font-weight-bold">$116</td>
+                          <td>13 Jun 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-success">Completed</div></td>
+                        </tr>
+                        <tr>
+                          <td>Display Advertising</td>
+                          <td class="font-weight-bold">$551</td>
+                          <td>28 Sep 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-warning">Pending</div></td>
+                        </tr>
+                        <tr>
+                          <td>Pay Per Click Advertising</td>
+                          <td class="font-weight-bold">$523</td>
+                          <td>30 Jun 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-warning">Pending</div></td>
+                        </tr>
+                        <tr>
+                          <td>E-Mail Marketing</td>
+                          <td class="font-weight-bold">$781</td>
+                          <td>01 Nov 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-danger">Cancelled</div></td>
+                        </tr>
+                        <tr>
+                          <td>Referral Marketing</td>
+                          <td class="font-weight-bold">$283</td>
+                          <td>20 Mar 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-warning">Pending</div></td>
+                        </tr>
+                        <tr>
+                          <td>Social media marketing</td>
+                          <td class="font-weight-bold">$897</td>
+                          <td>26 Oct 2018</td>
+                          <td class="font-weight-medium"><div class="badge badge-success">Completed</div></td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <h6 class="counter-amy-title">Participants</h6>
                 </div>
               </div>
-              <div class="col-9 col-sm-6">
-                <div class="counter-amy">
-                  <div class="counter-amy-number"><span class="counter">4</span>
+            </div>
+            <div class="col-md-5 grid-margin stretch-card">
+							<div class="card">
+								<div class="card-body">
+									<h4 class="card-title">To Do Lists</h4>
+									<div class="list-wrapper pt-2">
+										<ul class="d-flex flex-column-reverse todo-list todo-list-custom">
+											<li>
+												<div class="form-check form-check-flat">
+													<label class="form-check-label">
+														<input class="checkbox" type="checkbox">
+														Meeting with Urban Team
+													</label>
+												</div>
+												<i class="remove ti-close"></i>
+											</li>
+											<li class="completed">
+												<div class="form-check form-check-flat">
+													<label class="form-check-label">
+														<input class="checkbox" type="checkbox" checked>
+														Duplicate a project for new customer
+													</label>
+												</div>
+												<i class="remove ti-close"></i>
+											</li>
+											<li>
+												<div class="form-check form-check-flat">
+													<label class="form-check-label">
+														<input class="checkbox" type="checkbox">
+														Project meeting with CEO
+													</label>
+												</div>
+												<i class="remove ti-close"></i>
+											</li>
+											<li class="completed">
+												<div class="form-check form-check-flat">
+													<label class="form-check-label">
+														<input class="checkbox" type="checkbox" checked>
+														Follow up of team zilla
+													</label>
+												</div>
+												<i class="remove ti-close"></i>
+											</li>
+											<li>
+												<div class="form-check form-check-flat">
+													<label class="form-check-label">
+														<input class="checkbox" type="checkbox">
+														Level up for Antony
+													</label>
+												</div>
+												<i class="remove ti-close"></i>
+											</li>
+										</ul>
                   </div>
-                  <h6 class="counter-amy-title">Venues</h6>
-                </div>
-              </div>
-              <div class="col-9 col-sm-6">
-                <div class="counter-amy">
-                  <div class="counter-amy-number"><span class="counter">14</span>
+                  <div class="add-items d-flex mb-0 mt-2">
+										<input type="text" class="form-control todo-list-input"  placeholder="Add new task">
+										<button class="add btn btn-icon text-primary todo-list-add-btn bg-transparent"><i class="icon-circle-plus"></i></button>
+									</div>
+								</div>
+							</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title mb-0">Projects</p>
+                  <div class="table-responsive">
+                    <table class="table table-borderless">
+                      <thead>
+                        <tr>
+                          <th class="pl-0  pb-2 border-bottom">Places</th>
+                          <th class="border-bottom pb-2">Orders</th>
+                          <th class="border-bottom pb-2">Users</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="pl-0">Kentucky</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">65</span>(2.15%)</p></td>
+                          <td class="text-muted">65</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0">Ohio</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">54</span>(3.25%)</p></td>
+                          <td class="text-muted">51</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0">Nevada</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">22</span>(2.22%)</p></td>
+                          <td class="text-muted">32</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0">North Carolina</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">46</span>(3.27%)</p></td>
+                          <td class="text-muted">15</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0">Montana</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">17</span>(1.25%)</p></td>
+                          <td class="text-muted">25</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0">Nevada</td>
+                          <td><p class="mb-0"><span class="font-weight-bold mr-2">52</span>(3.11%)</p></td>
+                          <td class="text-muted">71</td>
+                        </tr>
+                        <tr>
+                          <td class="pl-0 pb-0">Louisiana</td>
+                          <td class="pb-0"><p class="mb-0"><span class="font-weight-bold mr-2">25</span>(1.32%)</p></td>
+                          <td class="pb-0">14</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <h6 class="counter-amy-title">Global sponsors</h6>
                 </div>
               </div>
-              <div class="col-9 col-sm-6">
-                <div class="counter-amy">
-                  <div class="counter-amy-number"><span class="counter">24</span>
+            </div>
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="row">
+                <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-title">Charts</p>
+                      <div class="charts-data">
+                        <div class="mt-3">
+                          <p class="mb-0">Data 1</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="progress progress-md flex-grow-1 mr-4">
+                              <div class="progress-bar bg-inf0" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-0">5k</p>
+                          </div>
+                        </div>
+                        <div class="mt-3">
+                          <p class="mb-0">Data 2</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="progress progress-md flex-grow-1 mr-4">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-0">1k</p>
+                          </div>
+                        </div>
+                        <div class="mt-3">
+                          <p class="mb-0">Data 3</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="progress progress-md flex-grow-1 mr-4">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 48%" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-0">992</p>
+                          </div>
+                        </div>
+                        <div class="mt-3">
+                          <p class="mb-0">Data 4</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="progress progress-md flex-grow-1 mr-4">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="mb-0">687</p>
+                          </div>
+                        </div>
+                      </div>  
+                    </div>
                   </div>
-                  <h6 class="counter-amy-title">Winter Olympics</h6>
+                </div>
+                <div class="col-md-12 stretch-card grid-margin grid-margin-md-0">
+                  <div class="card data-icon-card-primary">
+                    <div class="card-body">
+                      <p class="card-title text-white">Number of Meetings</p>                      
+                      <div class="row">
+                        <div class="col-8 text-white">
+                          <h3>34040</h3>
+                          <p class="text-white font-weight-500 mb-0">The total number of sessions within the date range.It is calculated as the sum . </p>
+                        </div>
+                        <div class="col-4 background-icon">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-xl-12 align-self-center">
-            <div class="row row-30 justify-content-center">
-              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href=" "><img
-                    src="./images/Untitled (270 × 117 px) (1).png" alt="" width="270" height="117" /></a></div>
-              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a
-                  class="clients-classic" href=" "><img src="./images/photo_2023-07-23_17-05-33.jpg" alt="" width="270"
-                    height="117" /></a></div>
-              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a
-                  class="clients-classic" href=" "><img src="./images/photo_3_2023-07-23_17-02-45.jpg" alt="" width="270"
-                    height="117" /></a></div>
-              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a
-                  class="clients-classic" href=" "><img src="./images/photo_1_2023-07-23_17-02-45.jpg"
-                   alt="" width="270"
-                    height="117" /></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Meet The Team-->
-    <section class="section section-sm section-fluid bg-default th" id="team">
-      <div class="container-fluid">
-        <h2>Meet The Team</h2>
-        <div class="row row-sm row-30 justify-content-center">
-          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
-            <!-- Team Classic-->
-            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href=" "><img
-                  src="images/team-11-420x424.jpg" alt="" width="420" height="424" /></a>
-              <div class="team-classic-caption">
-                <h4 class="team-classic-name"><a href=" ">Ryan Wilson</a></h4>
-                <p class="team-classic-status">Director of Production</p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
-            <!-- Team Classic-->
-            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href=" "><img
-                  src="images/team-12-420x424.jpg" alt="" width="420" height="424" /></a>
-              <div class="team-classic-caption">
-                <h4 class="team-classic-name"><a href=" ">Jill Peterson</a></h4>
-                <p class="team-classic-status">UI Designer</p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
-            <!-- Team Classic-->
-            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href=" "><img
-                  src="images/team-13-420x424.jpg" alt="" width="420" height="424" /></a>
-              <div class="team-classic-caption">
-                <h4 class="team-classic-name"><a href=" ">Sam Robinson</a></h4>
-                <p class="team-classic-status">Senior Developer</p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".3s">
-            <!-- Team Classic-->
-            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href=" "><img
-                  src="images/team-14-420x424.jpg" alt="" width="420" height="424" /></a>
-              <div class="team-classic-caption">
-                <h4 class="team-classic-name"><a href=" ">Mary Lee</a></h4>
-                <p class="team-classic-status">Software Developer</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- What people Say-->
-    <section class="section section-sm section-bottom-70 section-fluid bg-default th">
-      <div class="container-fluid">
-        <h2>What people Say</h2>
-        <div class="row row-50 row-sm">
-          <div class="col-md-6 col-xl-4 wow fadeInRight">
-            <!-- Quote Modern-->
-            <article class="quote-modern quote-modern-custom">
-              <div class="unit unit-spacing-md align-items-center">
-                <div class="unit-left"><a class="quote-modern-figure" href=" "><img class="img-circles"
-                      src="./images/Untitled (270 × 117 px) (75 × 75 px) (1).png" alt="" width="75" height="75" /></a></div>
-                <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href=" ">Catherine Williams</a></h4>
-                  <p class="quote-modern-status">sports enthusiast.</p>
-                </div>
-              </div>
-              <div class="quote-modern-text">
-                <p class="q">"The Olympics are a time when the world comes together to celebrate the pinnacle of human achievement in sports. It's inspiring to see athletes from different countries and backgrounds competing with such dedication and passion."</p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
-            <!-- Quote Modern-->
-            <article class="quote-modern quote-modern-custom">
-              <div class="unit unit-spacing-md align-items-center">
-                <div class="unit-left"><a class="quote-modern-figure" href=""><img class="img-circles"
-                      src="./images/Untitled (270 × 117 px) (75 × 75 px) (2).png" alt="" width="75" height="75" /></a></div>
-                <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href=" ">Rupert Wood</a></h4>
-                  <p class="quote-modern-status">Regular  viewer of the Games</p>
-                </div>
-              </div>
-              <div class="quote-modern-text">
-                <p class="q">"I love watching the Olympics because it reminds me of the power of unity. Despite our differences, we can all come together and appreciate the beauty of competition and the incredible talents of athletes from around the globe."</p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
-            <!-- Quote Modern-->
-            <article class="quote-modern quote-modern-custom">
-              <div class="unit unit-spacing-md align-items-center">
-                <div class="unit-left"><a class="quote-modern-figure" href=" "><img class="img-circles"
-                      src="./images/Untitled (270 × 117 px) (75 × 75 px).png" alt="" width="75" height="75" /></a></div>
-                <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href=" ">Samantha Brown</a></h4>
-                  <p class="quote-modern-status"> Supporter of her home country's athletes</p>
-                </div>
-              </div>
-              <div class="quote-modern-text">
-                <p class="q">"I feel so proud when my country's athletes win medals at the Olympics. It's a testament to their hard work and dedication. The national pride that comes with these victories is indescribable."</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing-->
-   
-
-    <!-- Latest blog posts-->
-    <section class="section section-sm bg-default th" id="news">
-      <div class="container">
-        <h2>Latest blog posts</h2>
-        <div class="row row-45">
-          <div class="col-sm-6 col-lg-4 wow fadeInLeft">
-            <!-- Post Modern-->
-            <article class="post post-modern"><a class="post-modern-figure" href=" "><img
-                  src="./images/Untitled (270 × 117 px) (75 × 75 px) (370 × 307 px).png" alt="" width="370" height="307" />
-                <div class="post-modern-time">
-                  <time datetime="2019-07-04"><span class="post-modern-time-month">07</span><span
-                      class="post-modern-time-number">04</span></time>
-                </div>
-              </a>
-              <h4 class="post-modern-title"><a href=" ">Olympic rings debut in Queensland as Brisbane 2032 </a></h4>
-              <p class="post-modern-text">Queensland is set to mark nine years to go until the Olympic and Paralympic Games Brisbane 2032 with a weekend of celebrations that will see large-scale Olympic rings on display across the host region...</p>
-            </article>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".1s">
-            <!-- Post Modern-->
-            <article class="post post-modern"><a class="post-modern-figure" href=" "><img
-                  src="./images/Untitled (270 × 117 px) (75 × 75 px) (370 × 307 px) (1).png" alt="" width="370" height="307" />
-                <div class="post-modern-time">
-                  <time datetime="2019-07-17"><span class="post-modern-time-month">07</span><span
-                      class="post-modern-time-number">17</span></time>
-                </div>
-              </a>
-              <h4 class="post-modern-title"><a href=" ">Karl Stoss appointed as new Chair for the Olympic Winter Games </a></h4>
-              <p class="post-modern-text">IOC Member from Austria Karl Stoss has been appointed Chair of the Future Host Commission for the Olympic Winter Games, replacing Octavian Morariu...</p>
-            </article>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
-            <!-- Post Modern-->
-            <article class="post post-modern"><a class="post-modern-figure" href=" "><img
-                  src="./images/Untitled (270 × 117 px) (75 × 75 px) (370 × 307 px) (2).png" alt="" width="370" height="307" />
-                <div class="post-modern-time">
-                  <time datetime="2019-07-22"><span class="post-modern-time-month">07</span><span
-                      class="post-modern-time-number">22</span></time>
-                </div>
-              </a>
-              <h4 class="post-modern-title"><a href=" ">Paris 2024 welcomes National Olympic Committees </a></h4>
-              <p class="post-modern-text">With just over a year remaining until the Games, Paris 2024 brought together representatives from the National Olympic Committees (NOCs) ...</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact information-->
-<section class="section section-sm bg-default th">
-  <div class="container">
-    <div class="row row-30 justify-content-center">
-      <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-          <div class="box-contacts-body">
-            <div class="box-contacts-icon fa fa-phone"></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="tel:+11023456789">+1 1023456789</a></p>
-            <p class="box-contacts-link"><a href="tel:+19012345678">+1 9012345678</a></p>
-          </div>
-        </article>
-      </div>
-      <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-          <div class="box-contacts-body">
-            <div class="box-contacts-icon"><i class="fas fa-phone"></i></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href=" ">LIET-VSKP-AlgorithmAssassins</a></p>
-          </div>
-        </article>
-      </div>
-      <div class="col-sm-8 col-md-6 col-lg-4">
-        <article class="box-contacts">
-          <div class="box-contacts-body">
-            <div class="box-contacts-icon"><i class="fas fa-envelope"></i></div>
-            <div class="box-contacts-decor"></div>
-            <p class="box-contacts-link"><a href="mailto:Algo-Assasians@Geek.org">Algo-Assasians@Geek.org</a></p>
-            <p class="box-contacts-link"><a href="mailto:Assasians@Geekathon.org">Assasians@Geekathon.org</a></p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-    <!-- Contact Form-->
-    <section class="section section-sm section-last bg-default text-left th" id="contacts">
-      <div class="container">
-        <article class="title-classic">
-          <div class="title-classic-title">
-            <h3>Get in touch</h3>
-          </div>
-          <div class="title-classic-text">
-            <p>If you have any questions, just fill in the contact form, and we will answer you shortly.</p>
-          </div>
-        </article>
-        <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"
-          data-form-type="contact" method="post" action="bat/rd-mailform.php">
-          <div class="row row-14 gutters-14">
-            <div class="col-md-4">
-              <div class="form-wrap">
-                <input class="form-input" id="contact-your-name-2" type="text" name="name" data-constraints="@Required">
-                <label class="form-label" for="contact-your-name-2">Your Name</label>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-wrap">
-                <input class="form-input" id="contact-email-2" type="email" name="email"
-                  data-constraints="@Email @Required">
-                <label class="form-label" for="contact-email-2">E-mail</label>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-wrap">
-                <input class="form-input" id="contact-phone-2" type="text" name="phone" data-constraints="@Numeric">
-                <label class="form-label" for="contact-phone-2">Phone</label>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="form-wrap">
-                <label class="form-label" for="contact-message-2">Message</label>
-                <textarea class="form-input textarea-lg" id="contact-message-2" name="message"
-                  data-constraints="@Required"></textarea>
-              </div>
-            </div>
-          </div>
-          <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- RD Google Map-->
-    <div id='map' style='width: 100%; height: 600px'>
-
-      <div id="menu">
-        <input id="satellite-streets-v12" type="radio" name="rtoggle" value="satellite" checked="checked">
-        <label for="satellite-streets-v12">satellite streets</label>
-        <input id="light-v11" type="radio" name="rtoggle" value="light">
-        <label for="light-v11">light</label>
-        <input id="dark-v11" type="radio" name="rtoggle" value="dark">
-        <label for="dark-v11">dark</label>
-        <input id="streets-v12" type="radio" name="rtoggle" value="streets">
-        <label for="streets-v12">streets</label>
-        <input id="outdoors-v12" type="radio" name="rtoggle" value="outdoors">
-        <label for="outdoors-v12">outdoors</label>
-      </div>
-    </div>
-      
-    </section>
-
-    <!-- Page Footer-->
-    <footer class="section section-fluid footer-minimal context-dark th">
-      <div class="bg-gray-15">
-        <div class="container-fluid">
-          <div class="footer-minimal-bottom-panel text-sm-left">
-            <div class="row row-10 align-items-md-center">
-              <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
-                <div>
-                  <ul class="list-inline list-inline-sm footer-social-list-2">
-                    <li><a class="icon fa fa-facebook" href=" "></a></li>
-                    <li><a class="icon fa fa-twitter" href=" "></a></li>
-                    <li><a class="icon fa fa-google-plus" href=" "></a></li>
-                    <li><a class="icon fa fa-instagram" href=" "></a></li>
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title">Notifications</p>
+                  <ul class="icon-data-list">
+                    <li>
+                      <div class="d-flex">
+                        <img src="images/faces/face1.jpg" alt="user">
+                        <div>
+                          <p class="text-info mb-1">Isabella Becker</p>
+                          <p class="mb-0">Sales dashboard have been created</p>
+                          <small>9:30 am</small>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex">
+                        <img src="images/faces/face2.jpg" alt="user">
+                        <div>
+                          <p class="text-info mb-1">Adam Warren</p>
+                          <p class="mb-0">You have done a great job #TW111</p>
+                          <small>10:30 am</small>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex">
+                      <img src="images/faces/face3.jpg" alt="user">
+                     <div>
+                      <p class="text-info mb-1">Leonard Thornton</p>
+                      <p class="mb-0">Sales dashboard have been created</p>
+                      <small>11:30 am</small>
+                     </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex">
+                        <img src="images/faces/face4.jpg" alt="user">
+                        <div>
+                          <p class="text-info mb-1">George Morrison</p>
+                          <p class="mb-0">Sales dashboard have been created</p>
+                          <small>8:50 am</small>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex">
+                        <img src="images/faces/face5.jpg" alt="user">
+                        <div>
+                        <p class="text-info mb-1">Ryan Cortez</p>
+                        <p class="mb-0">Herbs are fun and easy to grow.</p>
+                        <small>9:00 am</small>
+                        </div>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 order-sm-first">
-                <!-- Rights-->
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>RatherApp</span>
-                </p>
-              </div>
-              <div class="col-sm-6 col-md-4 text-md-right"><span>All rights reserved.</span>
-                <span>Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></span>
-              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </footer>
+          <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title">Advanced Table</p>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="table-responsive">
+                        <table id="example" class="display expandable-table" style="width:100%">
+                          <thead>
+                            <tr>
+                              <th>Quote#</th>
+                              <th>Product</th>
+                              <th>Business type</th>
+                              <th>Policy holder</th>
+                              <th>Premium</th>
+                              <th>Status</th>
+                              <th>Updated at</th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                      </table>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
 
-    <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4>Contact Us</h4>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">×</span></button>
-          </div>
-          <div class="modal-body">
-            <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"
-              data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <input class="form-input" id="contact-modal-name" type="text" name="name"
-                      data-constraints="@Required">
-                    <label class="form-label" for="contact-modal-name">Your Name</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <input class="form-input" id="contact-modal-email" type="email" name="email"
-                      data-constraints="@Email @Required">
-                    <label class="form-label" for="contact-modal-email">E-mail</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <input class="form-input" id="contact-modal-phone" type="text" name="phone"
-                      data-constraints="@Numeric">
-                    <label class="form-label" for="contact-modal-phone">Phone</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <label class="form-label" for="contact-modal-message">Message</label>
-                    <textarea class="form-input textarea-lg" id="contact-modal-message" name="message"
-                      data-constraints="@Required"></textarea>
-                  </div>
-                </div>
+                
               </div>
-              <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
-            </form>
-          </div>
+            </div>
         </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+          </div>
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Distributed by <a href="https://www.themewagon.com/" target="_blank">Themewagon</a></span> 
+          </div>
+        </footer> 
+        <!-- partial -->
       </div>
-    </div>
+      <!-- main-panel ends -->
+    </div>   
+    <!-- page-body-wrapper ends -->
   </div>
+  <!-- container-scroller -->
 
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoidGludGVuNyIsImEiOiJjbGhuZWdhbXgxNnBkM2ZvcGtjZ3BreTI4In0.a48w2PP9MYvR2NkINZ2RXA';
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="js/dataTables.select.min.js"></script>
 
-
-
-    function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(showPosition);
-      } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-      }
-    }
-
-    function showPosition(position) {
-      const map = new mapboxgl.Map({
-        container: 'map',
-        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-        style: 'mapbox://styles/mapbox/satellite-streets-v12',
-        center: [position.coords.longitude, position.coords.latitude],
-        zoom: 10
-      });
-      map.addControl(new mapboxgl.NavigationControl());
-      
-      const layerList = document.getElementById('menu');
-      const inputs = layerList.getElementsByTagName('input');
-
-      for (const input of inputs) {
-        input.onclick = (layer) => {
-          const layerId = layer.target.id;
-          map.setStyle('mapbox://styles/mapbox/' + layerId);
-        };
-      }
-    }
-    getLocation()
-
-
-
-
-  </script>
-
-
-  
-  <!-- Global Mailform Output-->
-  <div class="snackbars" id="form-output-global"></div>
-  <!-- Javascript-->
-  <script src="./core.min.js"></script>
-  <script src="./script.js"></script>
-  <!-- coded by Himic-->
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
 </body>
 
 </html>
+
