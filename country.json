@@ -1,0 +1,439 @@
+[
+    {
+        "city" : "Athens",
+        "year" : 1896,
+        "country" : "Greece",
+        "nocp" : "14 Nations",
+        "od" : "6 April 1896",
+        "cd" : "/15 April 1896",
+        "nop" : 241,
+        "events" : 43,
+        "bronze" : 36,
+        "silver" : 43,
+        "gold" : 43,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png"
+
+    },
+    {
+        "city" : "Paris",
+        "year" : 1900,
+        "country" : "France",
+        "nocp" : "26 Nations",
+        "od" : "14 May 1900",
+        "cd" : "/28 October 1900",
+        "nop" : 1226,
+        "events" : 95,
+        "bronze" : 93,
+        "silver" : 95,
+        "gold" : 96,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png"
+
+    },{
+        "city" : "St Louis",
+        "year" : 1904,
+        "country" : "United States",
+        "nocp" : "12 Nations",
+        "od" : "1 July 1904",
+        "cd" : "/23 November 1904",
+        "nop" : 651,
+        "events" : 95,
+        "bronze" : 91,
+        "silver" : 92,
+        "gold" : 97,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
+
+    },{
+        "city" : "London",
+        "year" : 1908,
+        "country" : "United Kingdom",
+        "nocp" : "22 Nations",
+        "od" : "27 April 1908",
+        "cd" : "/31 October 1908",
+        "nop" : 2008,
+        "events" : 110,
+        "bronze" : 107,
+        "silver" : 107,
+        "gold" : 110,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+
+    },
+    {
+        "city" : "Stockholm",
+        "year" : 1912,
+        "country" : "Sweden",
+        "nocp" : "28 Nations",
+        "od" : "6 july 1912",
+        "cd" : "/22 July 1912",
+        "nop" : 2407,
+        "events" : 102,
+        "bronze" : 104,
+        "silver" :106,
+        "gold" : 101,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/383px-Flag_of_Sweden.svg.png"
+
+    },
+    {
+        "city" : "Antwerp",
+        "year" : 1920,
+        "country" : "Belgium",
+        "nocp" : "29 Nations",
+        "od" : "14 August 1920",
+        "cd" : "/12 September 1920",
+        "nop" : 2626,
+        "events" : 156,
+        "bronze" : 136,
+        "silver" : 146,
+        "gold" : 155,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/800px-Flag_of_Belgium.svg.png"
+
+    },{
+        "city" : "Paris",
+        "year" : 1924,
+        "country" : "France",
+        "nocp" : "44 Nations",
+        "od" : "5 july 1924",
+        "cd" : "/27 July 1924",
+        "nop" : 3089,
+        "events" : 126,
+        "bronze" : 125,
+        "silver" : 127,
+        "gold" : 126,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png"
+
+    },
+    {
+        "city" : "Amsterdam",
+        "year" : 1928,
+        "country" : "Netherlands",
+        "nocp" : "46 Nations",
+        "od" : "28 july 1928",
+        "cd" : "/12 August 1928",
+        "nop" : 2883,
+        "events" : 109,
+        "bronze" : 109,
+        "silver" : 108,
+        "gold" : 110,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/383px-Flag_of_the_Netherlands.svg.png"
+
+    },
+    {
+        "city" : "Los Angeles",
+        "year" : 1932,
+        "country" : "United States",
+        "nocp" : "37 Nations",
+        "od" : "30 july 1932",
+        "cd" : "/14 August 1932",
+        "nop" : 1332,
+        "events" : 117,
+        "bronze" : 114,
+        "silver" : 116,
+        "gold" : 116,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
+
+    },
+    {
+        "city" : "Berlin",
+        "year" : 1936,
+        "country" : "Germany",
+        "nocp" : "49 Nations",
+        "od" : "1 August 1936",
+        "cd" : "/16 August 1936",
+        "nop" : 3963,
+        "events" : 129,
+        "bronze" : 139,
+        "silver" : 138,
+        "gold" : 141,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/383px-Flag_of_Germany.svg.png"
+
+    },{
+        "city" : "London",
+        "year" : 1948,
+        "country" : "United Kingdom",
+        "nocp" : "59 Nations",
+        "od" : "29 July 1948",
+        "cd" : "/14 August 1948",
+        "nop" : 4104,
+        "events" : 136,
+        "bronze" : 138,
+        "silver" : 135,
+        "gold" : 138,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+
+    },
+    {
+        "city" : "Helsinki",
+        "year" : 1952,
+        "country" : "Finland",
+        "nocp" : "69 Nations",
+        "od" : "19 July 1952",
+        "cd" : "/3 August 1952",
+        "nop" : 4955,
+        "events" : 149,
+        "bronze" : 158,
+        "silver" : 152,
+        "gold" : 149,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/383px-Flag_of_Finland.svg.png"
+
+    },
+    {
+        "city" : "Melbourne",
+        "year" : 1956,
+        "country" : "Australia",
+        "nocp" : "72 Nations",
+        "od" : "22 November 1956",
+        "cd" : "/8 December 1956",
+        "nop" : 3314,
+        "events" : 151,
+        "bronze" :163 ,
+        "silver" :153,
+        "gold" : 153,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/383px-Flag_of_Australia_%28converted%29.svg.png"
+
+    },
+    {
+        "city" : "Rome",
+        "year" : 1960,
+        "country" : "Italy",
+        "nocp" : "83 Nations",
+        "od" : "25 August 1960",
+        "cd" : "/11 September 1960",
+        "nop" : 5338,
+        "events" : 150,
+        "bronze" : 160,
+        "silver" : 149,
+        "gold" : 152,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/383px-Flag_of_Italy.svg.png"
+
+    },{
+        "city" : "Tokyo",
+        "year" : 1964,
+        "country" : "Japan",
+        "nocp" : "93 Nations",
+        "od" : "10 October 1964",
+        "cd" : "/24 October 1964",
+        "nop" : 5151,
+        "events" : 163,
+        "bronze" : 174,
+        "silver" : 167,
+        "gold" : 163,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/383px-Flag_of_Japan.svg.png"
+
+    },
+    {
+        "city" : "Mexico City",
+        "year" : 1968,
+        "country" : "Mexico",
+        "nocp" : "112 Nations",
+        "od" : "12 October 1968",
+        "cd" : "/27 October 1968",
+        "nop" : 5516,
+        "events" : 172,
+        "bronze" : 183,
+        "silver" : 180,
+        "gold" : 174,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/383px-Flag_of_Mexico.svg.png"
+
+    },{
+        "city" : "Munich",
+        "year" : 1972,
+        "country" : "West Germany",
+        "nocp" : "121 Nations",
+        "od" : "26 August 1972",
+        "cd" : "/11 September 1972",
+        "nop" : 7134,
+        "events" : 195,
+        "bronze" : 210,
+        "silver" : 195,
+        "gold" : 195,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/383px-Flag_of_Germany.svg.png"
+
+    },
+    {
+        "city" : "Montreal",
+        "year" : 1976,
+        "country" : "Canada",
+        "nocp" : "92 Nations",
+        "od" : "17 July 1976",
+        "cd" : "/1 August 1976",
+        "nop" : 6072,
+        "events" : 198,
+        "bronze" : 216,
+        "silver" : 199,
+        "gold" : 198,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/383px-Flag_of_Canada_%28Pantone%29.svg.png"
+
+    },{
+        "city" : "Moscow",
+        "year" : 1980,
+        "country" : "Soviet Union",
+        "nocp" : "80 Nations",
+        "od" : "19 July 1980",
+        "cd" : "/3 August 1980",
+        "nop" : 5256,
+        "events" : 203,
+        "bronze" : 223,
+        "silver" : 204,
+        "gold" : 204,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/383px-Flag_of_Russia.svg.png"
+
+    },
+    {
+        "city" : "Los Angeles",
+        "year" : 1984,
+        "country" : "United States",
+        "nocp" : "140 Nations",
+        "od" : "28 July 1984",
+        "cd" : "/12 August 1984",
+        "nop" : 6829,
+        "events" : 221,
+        "bronze" : 243,
+        "silver" : 219,
+        "gold" : 226,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/383px-Flag_of_the_United_States.svg.png"
+
+    },{
+        "city" : "Seoul",
+        "year" : 1988,
+        "country" : "South Korea",
+        "nocp" : "159 Nations",
+        "od" : "17 September 1988",
+        "cd" : "/2 October 1988",
+        "nop" : 8391,
+        "events" : 237,
+        "bronze" : 264,
+        "silver" : 234,
+        "gold" : 241,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/383px-Flag_of_South_Korea.svg.png"
+
+    },{
+        "city" : "Barcelona",
+        "year" : 1992,
+        "country" : "Spain",
+        "nocp" : "169 Nations",
+        "od" : "25 July 1992",
+        "cd" : "/9 August 1992",
+        "nop" : 9356,
+        "events" : 257,
+        "bronze" : 298,
+        "silver" : 257,
+        "gold" : 260,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/300px-Bandera_de_Espa%C3%B1a.svg.png"
+
+    },
+    {
+        "city" : "Atlanta",
+        "year" : 1996,
+        "country" : "United States",
+        "nocp" : "197 Nations",
+        "od" : "19 July 1996",
+        "cd" : "/4 August 1996",
+        "nop" : 10318,
+        "events" : 271,
+        "bronze" : 298,
+        "silver" : 273,
+        "gold" : 271,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/383px-Flag_of_the_United_States.svg.png"
+
+    },{
+        "city" : "Sydney",
+        "year" : 2000,
+        "country" : "Australia",
+        "nocp" : "199 Nations",
+        "od" : "15 September 2000",
+        "cd" : "/1 October 2000",
+        "nop" : 10651,
+        "events" : 300,
+        "bronze" : 327,
+        "silver" : 300,
+        "gold" : 300,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/383px-Flag_of_Australia_%28converted%29.svg.png"
+
+    },
+    {
+        "city" : "Athens",
+        "year" : 2004,
+        "country" : "Greece",
+        "nocp" : "201 Nations",
+        "od" : "13 August 2004",
+        "cd" : "/29 August 2004",
+        "nop" : 10625,
+        "events" : 301,
+        "bronze" : 325,
+        "silver" : 300,
+        "gold" : 301,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/383px-Flag_of_Greece.svg.png"
+
+    },{
+        "city" : "Beijing",
+        "year" : 2008,
+        "country" : "China",
+        "nocp" : "204 Nations",
+        "od" : "8 August 2008",
+        "cd" : "/24 August 2008",
+        "nop" : 10942,
+        "events" : 302,
+        "bronze" : 353,
+        "silver" : 303,
+        "gold" : 302,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/383px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+
+    },{
+        "city" : "London",
+        "year" : 2012,
+        "country" : "United Kingdom",
+        "nocp" : "204 Nations",
+        "od" : "27 July 2012",
+        "cd" : "/12 August 2012",
+        "nop" : 10568,
+        "events" : 302,
+        "bronze" : 353,
+        "silver" : 305,
+        "gold" : 303,
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+
+    },
+    {
+        "city" : "Rio de Janeiro",
+        "year" : 2016,
+        "country" : "Brazil",
+        "nocp" : "207 Nations",
+        "od" : "5 August 2016",
+        "cd" : "/21 August 2016",
+        "nop" : 11137,
+        "events" : 306,
+        "bronze" : 359,
+        "silver" : 307,
+        "gold" : 306,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/364px-Flag_of_Brazil.svg.png"
+
+    },{
+        "city" : "Tokyo",
+        "year" : "2020(2021)",
+        "country" : "Japan",
+        "nocp" : "206 Nations",
+        "od" : "23 July 2021",
+        "cd" : "/8 August 2021",
+        "nop" : 11348,
+        "events" : 339,
+        "bronze" : 402,
+        "silver" : 338,
+        "gold" : 340,
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/383px-Flag_of_Japan.svg.png"
+
+    },
+    {
+        "city" : "Paris",
+        "year" : 2024,
+        "country" : "France",
+        "nocp" : "206 Nations",
+        "od" : "26 July 2024",
+        "cd" : "/11 August 2024",
+        "nop" : 10500,
+        "events" : 339,
+        "bronze" : "-",
+        "silver" : "-",
+        "gold" : "-",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/375px-Flag_of_France.svg.png"
+
+    }
+]
