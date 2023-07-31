@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Skydash Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    
+    <!-- partial -->
+    
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 grid-margin">
+              <div class="row">
+                <div class="col-12 col-xl-8 mb-4 mb-xl-0" style="display: flex; height: 80px;">
+                  <img src="pogo logo final.png" style="position: relative;  bottom: 50px; height: 150px;">
+                  <div>
+                    <div style="color: #1d6d9b; text-align: center; position: relative; left: 25em;"> 
+                      <h3 class="font-weight-bold" style="font-size: 50px;">Olympic Events</h3>
+                    </div>
+                    <button class="animated-button">
+                      <span>Back</span>
+                      <span></span>
+                    </button>                    
+                  </div>
+                </div>
+                <div class="col-12 col-xl-4">
+                 <div class="justify-content-end d-flex">
+                  
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card tale-bg">
+                <div class="card-people mt-auto" >
+                  <img src="https://raw.githubusercontent.com/AlgorithmAssassins/pogo/1d1c3230eb2edaa394450341a793967dfc6e0820/images/urban-sports-fans-give-each-other-a-high-five-in-front-of-the-tv.svg" style="height: 290px;" alt="people">
+                  <div class="weather-info">
+                    <div class="d-flex">
+                      <div>
+                      </div>
+                      <div class="ml-2">
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin transparent">
+              <div class="row">
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-tale">
+                    <div class="card-body">
+                      <p class="mb-4">Total Countries</p>
+                      <p class="fs-30 mb-2">205</p>
+                      <p>Participating Countries</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-dark-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Total Medals</p>
+                      <p class="fs-30 mb-2">650</p>
+                      <p>Medals won so far</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                  <div class="card card-light-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Total Participants</p>
+                      <p class="fs-30 mb-2">9000</p>
+                      <p>Athletes and Delegations</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 stretch-card transparent">
+                  <div class="card card-light-danger">
+                    <div class="card-body">
+                      <p class="mb-4">Total Events</p>
+                      <p class="fs-30 mb-2">300</p>
+                      <p>Events in the Olympics</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title">Olympics Statistics</p>
+                  <p class="font-weight-500">Here are some key statistics related to the Olympics and its events:</p>
+                  <div class="d-flex flex-wrap mb-5">
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Countries</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">205</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Participants</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">9000</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">Medals</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">650</h3>
+                    </div>
+                    <div class="mt-3">
+                      <p class="text-muted">Events</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">300</h3>
+                    </div> 
+                  </div>
+                  <canvas id="order-chart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                 <div class="d-flex justify-content-between">
+                  <p class="card-title">Olympics Report</p>
+          
+                 </div>
+                  <p class="font-weight-500">Explore the performance of the Olympics over the years with the countries and medals.</p>
+                  <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
+                  <canvas id="sales-chart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+              <div class="card position-relative">
+                <div class="card-body">
+                  <div id="detailedReports" class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+                            <div class="ml-xl-4 mt-3">
+                            <p class="card-title">Olympics Reports</p>
+                              <h1 class="text-primary">4678</h1>
+                              <h3 class="font-weight-500 mb-xl-4 text-primary">Total Medals Earned</h3>
+                              <p class="mb-2 mb-xl-0">Explore the number of medals earned by athletes from top countries during the Olympics.</p>
+                            </div>  
+                            </div>
+                          <div class="col-md-12 col-xl-9">
+                            <div class="row">
+                              <div class="col-md-6 border-right">
+                                <div class="table-responsive mb-3 mb-md-0 mt-3">
+                                  <table class="table table-borderless report-table">
+                                    <tr>
+                                      <td class="text-muted">United States</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">2827</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Soviet Union</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">1204</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Germany</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">1096</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Great Britain</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">851</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">France</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 78.5%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">840</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Italy</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">701</h5></td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mt-3">
+                                <canvas id="north-america-chart"></canvas>
+                                <div id="north-america-legend"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+                            <div class="ml-xl-4 mt-3">
+                            <p class="card-title">Olympics Reports</p>
+                              <h1 class="text-primary">3229</h1>
+                              <h3 class="font-weight-500 mb-xl-4 text-primary">Total Medals Earned</h3>
+                              <p class="mb-2 mb-xl-0">Explore the number of medals earned by athletes from top countries during the Olympics.</p>
+                            </div>  
+                            </div>
+                          <div class="col-md-12 col-xl-9">
+                            <div class="row">
+                              <div class="col-md-6 border-right">
+                                <div class="table-responsive mb-3 mb-md-0 mt-3">
+                                  <table class="table table-borderless report-table">
+                                    <tr>
+                                      <td class="text-muted">China</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 65%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">715</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Sweden</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-warning" role="progressbar" style="width: 61.5%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">611</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Hungary</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">502</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Australia</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-info" role="progressbar" style="width: 48%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">497</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">Russia</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">495</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-muted">East Germany</td>
+                                      <td class="w-100 px-0">
+                                        <div class="progress progress-md mx-4">
+                                          <div class="progress-bar bg-danger" role="progressbar" style="width: 37%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                      </td>
+                                      <td><h5 class="font-weight-bold mb-0">409</h5></td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mt-3">
+                                <canvas id="south-america-chart"></canvas>
+                                <div id="south-america-legend"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#detailedReports" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#detailedReports" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title mb-0">Top 7 Countries in Olympic History</p>
+<div class="table-responsive">
+  <table class="table table-striped table-borderless">
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th>Gold</th>
+        <th>Silver</th>
+        <th>Bronze</th>
+        <th>Total Medals</th>
+        <th>Year</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>United States</td>
+        <td class="font-weight-bold">1127</td>
+        <td class="font-weight-bold">907</td>
+        <td class="font-weight-bold">793</td>
+        <td class="font-weight-bold">2827</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-success">1st</td>
+      </tr>
+      <tr>
+        <td>China</td>
+        <td class="font-weight-bold">473</td>
+        <td class="font-weight-bold">376</td>
+        <td class="font-weight-bold">355</td>
+        <td class="font-weight-bold">1204</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-primary">2nd</td>
+      </tr>
+      <tr>
+        <td>Germany</td>
+        <td class="font-weight-bold">428</td>
+        <td class="font-weight-bold">444</td>
+        <td class="font-weight-bold">424</td>
+        <td class="font-weight-bold">1096</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-warning">3rd</td>
+      </tr>
+      <tr>
+        <td>Great Britain</td>
+        <td class="font-weight-bold">263</td>
+        <td class="font-weight-bold">295</td>
+        <td class="font-weight-bold">293</td>
+        <td class="font-weight-bold">851</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-warning">4th</td>
+      </tr>
+      <tr>
+        <td>France</td>
+        <td class="font-weight-bold">246</td>
+        <td class="font-weight-bold">276</td>
+        <td class="font-weight-bold">318</td>
+        <td class="font-weight-bold">840</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-bold">5th</td>
+      </tr>
+      <tr>
+        <td>Italy</td>
+        <td class="font-weight-bold">246</td>
+        <td class="font-weight-bold">214</td>
+        <td class="font-weight-bold">241</td>
+        <td class="font-weight-bold">701</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-danger">6th</td>
+      </tr>
+      <tr>
+        <td>China</td>
+        <td class="font-weight-bold">224</td>
+        <td class="font-weight-bold">167</td>
+        <td class="font-weight-bold">324</td>
+        <td class="font-weight-bold">715</td>
+        <td>2021</td>
+        <td class="font-weight-medium text-danger">7th</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Olympics To Do List</h4>
+                  <div class="list-wrapper pt-2">
+                    <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
+                      <li>
+                        <div class="form-check form-check-flat">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox">
+                            Watch Opening Ceremony of the Olympics
+                          </label>
+                        </div>
+                        <i class="remove ti-close"></i>
+                      </li>
+                      <li class="completed">
+                        <div class="form-check form-check-flat">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox" checked>
+                            Cheer for My Country's Athletes
+                          </label>
+                        </div>
+                        <i class="remove ti-close"></i>
+                      </li>
+                      <li>
+                        <div class="form-check form-check-flat">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox">
+                            Attend Olympic Sports Events
+                          </label>
+                        </div>
+                        <i class="remove ti-close"></i>
+                      </li>
+                      <li class="completed">
+                        <div class="form-check form-check-flat">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox" checked>
+                            Host an Olympic Watch Party
+                          </label>
+                        </div>
+                        <i class="remove ti-close"></i>
+                      </li>
+                      <li>
+                        <div class="form-check form-check-flat">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox">
+                            Collect Olympic Memorabilia
+                          </label>
+                        </div>
+                        <i class="remove ti-close"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+                 
+
+                
+              </div>
+            </div>
+        </div>
+          
+
+                
+              
+        </div>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>   
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="js/dataTables.select.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+
