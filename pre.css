@@ -3186,14 +3186,14 @@ h2{
 }
 
 
-.wallet {
+.wallet1 {
     --bg-color: #ceb2fc;
     --bg-color-light: #f0e7ff;
     --text-color-hover: #fff;
     --box-shadow-color: rgba(206, 178, 252, 0.48);
 }
 
-.card {
+.card1 {
     width: 220px;
     height: 321px;
     background: #fff;
@@ -3209,30 +3209,30 @@ h2{
     text-decoration: none;
 }
 
-.card:hover {
+.card1:hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 24px 36px rgba(0, 0, 0, 0.3),
         0 24px 46px var(--box-shadow-color);
 }
 
-.card:hover .overlay {
+.card1:hover .overlay1 {
     transform: scale(4) translateZ(0);
 }
 
-.card:hover .circle {
+.card1:hover .circle1 {
     border-color: var(--bg-color-light);
     background: var(--bg-color);
 }
 
-.card:hover .circle:after {
+.card1:hover .circle1:after {
     background: var(--bg-color-light);
 }
 
-.card:hover p {
+.card1:hover p {
     color: var(--text-color-hover);
 }
 
-.card p {
+.card1 p {
     font-size: 17px;
     color: #4c5656;
     margin-top: 30px;
@@ -3240,7 +3240,7 @@ h2{
     transition: color 0.3s ease-out;
 }
 
-.circle {
+.circle1 {
     width: 131px;
     height: 131px;
     border-radius: 50%;
@@ -3254,7 +3254,7 @@ h2{
     transition: all 0.3s ease-out;
 }
 
-.circle:after {
+.circle1:after {
     content: "";
     width: 118px;
     height: 118px;
@@ -3267,12 +3267,16 @@ h2{
     transition: opacity 0.3s ease-out;
 }
 
-.circle svg {
+.circle1 svg {
+    z-index: 10000;
+    transform: translateZ(0);
+}
+.circle1 img {
     z-index: 10000;
     transform: translateZ(0);
 }
 
-.overlay {
+.overlay1 {
     width: 118px;
     position: absolute;
     height: 118px;
