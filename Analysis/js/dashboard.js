@@ -419,7 +419,7 @@ fetch('./medal.json')
           ctx.textBaseline = "middle";
           ctx.fillStyle = "#13381B";
       
-          var text = "90",
+          var text = "Top 7",
               textX = Math.round((width - ctx.measureText(text).width) / 2),
               textY = height / 2;
       
@@ -571,7 +571,7 @@ fetch('./medal.json')
           ctx.textBaseline = "middle";
           ctx.fillStyle = "#000";
       
-          var text = "76",
+          var text = "Top 14",
               textX = Math.round((width - ctx.measureText(text).width) / 2),
               textY = height / 2;
       
