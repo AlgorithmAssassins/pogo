@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Olympics Games Oversight is a web application that provides comprehensive information about the history of the Olympics. It includes details about the timeline, various types of Olympics, and specific game information. Additionally, the project incorporates three essential features: Badge Analysis, Sports Predictor, and Timeline, to offer insights into medal achievements by different countries in Olympic Games. The project is built using a tech stack comprising HTML, CSS, JS, Jupyter Notebook, SCSS, Python, and utilizes the Mapbox API for mapping functionalities.
+The Olympics Games Oversight is a web application that provides comprehensive information about the history of the Olympics. It includes details about the timeline, various types of Olympics, and specific game information. Additionally, the project incorporates three essential features: Badge Analysis, Sports Predictor, and Timeline, to offer insights into medal achievements by different countries in Olympic Games. The project is built using a tech stack comprising HTML, CSS, JS, Jupyter Notebook, SCSS, and Python, and utilizes the Mapbox API for mapping functionalities.
 
 ## Features
 
@@ -14,7 +14,7 @@ The Olympics Games Oversight is a web application that provides comprehensive in
 
 4. **Badge Analysis**: Badge Analysis offers data-driven insights into the number of medals secured by each country throughout Olympic history. Users can examine patterns, compare performances, and draw conclusions from the provided statistics.
 
-5. **Sports Predictor**: The Sports Predictor employs predictive modeling techniques to forecast the number of medals countries are likely to secure in upcoming Olympics. This feature uses historical data and statistical analysis to make informed predictions.
+5. **Sports Predictor**: The Sports Predictor employs predictive modelling techniques to forecast the number of medals countries are likely to secure in the upcoming Olympics. This feature uses historical data and statistical analysis to make informed predictions.
 
 ## Tech Stack
 
@@ -23,7 +23,7 @@ The project is built using the following technologies:
 - HTML
 - CSS
 - JavaScript
-- Jupyter Notebook (for data analysis and modeling)
+- Jupyter Notebook (for data analysis and modelling)
 - SCSS (for improved CSS preprocessing)
 - Python (for data manipulation and analysis)
 - Mapbox API (for interactive mapping functionality)
@@ -39,7 +39,7 @@ The project is built using the following technologies:
   
 ## Acknowledgments
 
-- The project was inspired by the Geekathon under Geek-Olympics conducted GeeksForGeeks Portal and also driven by passion for sports and the desire to explore the history of the Olympics.
+- The project was inspired by the Geekathon under Geek-Olympics conducted GeeksForGeeks Portal and also driven by a passion for sports and the desire to explore the history of the Olympics.
 
 - Special thanks to the Mapbox team for providing the APIs to create interactive maps.
 
@@ -47,9 +47,9 @@ The project is built using the following technologies:
 The Olympics Website is the collective effort of the following contributors:
 
 - Srikar Tenneti([GitHub](https://github.com/tinkten7) | [LinkedIn](https://www.linkedin.com/in/srikar-tenneti-849522235/)))
-- Sai Gowtham Puvvala ([GitHub]((https://github.com/p-sai-gowtham)) | [LinkedIn]((https://www.linkedin.com/in/sai-gowtham-puvvula-607109214/)))
-- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn]((https://www.linkedin.com/in/hashita-pusapati-315194226/)))
-- Sudhish Amiti([GitHub](https://github.com/SudhishAmiti)) | [LinkedIn]((https://www.linkedin.com/in/sudhish-amiti-491805224/)))
+- Sai Gowtham Puvvala ([GitHub](https://github.com/p-sai-gowtham) | [LinkedIn](https://www.linkedin.com/in/sai-gowtham-puvvula-607109214/)))
+- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn](https://www.linkedin.com/in/hashita-pusapati-315194226/)))
+- Sudhish Amiti([GitHub](https://github.com/SudhishAmiti) | [LinkedIn](https://www.linkedin.com/in/sudhish-amiti-491805224/)))
 - Kiran Kumar Daniyala([GitHub](https://github.com/kirankumar04) | [LinkedIn](https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/)))
 
 Happy Olympics Exploration!
