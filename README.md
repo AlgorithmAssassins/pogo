@@ -1,88 +1,60 @@
-# AlgoAss
-To write the above project idea into a GitHub README file, you can follow the structure below:
+# Olympics Games Oversight
 
-# Olympic Event Outcome Prediction
+![Olympics Games Oversight](https://raw.githubusercontent.com/AlgorithmAssassins/pogo/main/images/Screenshot%20(63).png)
 
-![Olympic Event Outcome Prediction](/path/to/image)
+## Overview
 
-The Olympic Event Outcome Prediction project is an application that utilizes data science, machine learning, and data analysis techniques to predict the outcomes of various Olympic events. By analyzing historical data, athlete profiles, training patterns, and other relevant factors, the system aims to provide accurate predictions for each event, engaging users and offering valuable insights.
-
-
-# Olympics Website
-
-![Olympics Logo](/path/to/olympics-logo.png)
-
-## Introduction
-
-The Olympics Website is a comprehensive online platform that provides detailed information about countries' performance in the Olympic Games. Our mission is to offer users insightful data and analytics to explore the history of Olympic events, understand countries' medal counts, and predict their potential performance in future games.
+The Olympics Games Oversight is a web application that provides comprehensive information about the history of the Olympics. It includes details about the timeline, various types of Olympics, and specific game information. Additionally, the project incorporates three essential features: Badge Analysis, Sports Predictor, and Timeline, to offer insights into medal achievements by different countries in Olympic Games. The project is built using a tech stack comprising HTML, CSS, JS, Jupyter Notebook, SCSS, Python, and utilizes the Mapbox API for mapping functionalities.
 
 ## Features
 
-- **Country Performance**: Users can access comprehensive data on countries' Olympic performance, including the total number of gold, silver, and bronze medals won.
+1. **Timeline**: The timeline feature is a visual representation of all the Olympic Games hosted around the world. It showcases the venues and the number of medals earned in each event, providing users with a clear picture of the Olympics' global reach and success.
 
-- **Sports Participation**: Explore the sports in which a specific country participated in the Olympics. The website provides data on the number of athletes representing each country in each sport.
+2. **Types of Olympics**: This section highlights the various types of Olympic Games, including Youth Olympics, Summer Olympics, Winter Olympics, and Paralympics. Users can discover the differences and unique characteristics of each type.
 
-- **Historical Data**: Access historical data from past Olympic events, enabling users to track countries' performances over the years.
+4. **Badge Analysis**: Badge Analysis offers data-driven insights into the number of medals secured by each country throughout Olympic history. Users can examine patterns, compare performances, and draw conclusions from the provided statistics.
 
-- **Analytics Dashboard**: The platform features an interactive analytics dashboard with visually appealing charts and graphs. Gain insights into medal counts, sports trends, and more.
-
-- **Prediction Module**: We incorporate cutting-edge machine learning algorithms to predict countries' potential performance in upcoming Olympic Games based on historical data and other relevant factors.
-
-- **User Accounts**: Users can create accounts to personalize their experience, save favorite countries, and receive personalized predictions.
-
-- **Responsive Design**: The website is fully responsive, ensuring a seamless experience across various devices.
-
-- **Accessibility**: We strive to make our platform accessible to all users by following web accessibility guidelines.
-
-## Getting Started
-
-To get started with the Olympics Website, follow these steps:
-
-1. Clone this repository to your local machine.
-
-```
-git clone https://github.com/yourusername/olympics-website.git
-```
-
-2. Navigate to the project directory.
-
-```
-cd olympics-website
-```
-
-3. Open your web browser and go to `http://localhost:3000` to access the Olympics Website.
+5. **Sports Predictor**: The Sports Predictor employs predictive modeling techniques to forecast the number of medals countries are likely to secure in upcoming Olympics. This feature uses historical data and statistical analysis to make informed predictions.
 
 ## Tech Stack
 
-The Olympics Website is built using the following technologies:
+The project is built using the following technologies:
 
-- Frontend:  HTML, CSS,Bootstrap, JavaScript
-- Backend: Google FireBase
-- Database: MongoDB (optional for user accounts and data storage)
-- Data Visualization: Chart.js, D3.js,
-- Machine Learning: Python, scikit-learn
+- HTML
+- CSS
+- JavaScript
+- Jupyter Notebook (for data analysis and modeling)
+- SCSS (for improved CSS preprocessing)
+- Python (for data manipulation and analysis)
+- Mapbox API (for interactive mapping functionality)
 
-## Contributors
 
-The Olympics Website is the collective effort of the following contributors:
+## Usage
 
-- Sai Gowtham Puvvala ([GitHub](https://github.com/johnsmith) | [LinkedIn](https://www.linkedin.com/in/johnsmith))
-- Srikar Tenneti([GitHub](https://github.com/janedoe) | [LinkedIn](https://www.linkedin.com/in/janedoe))
-- Sudhish Amiti([GitHub](https://github.com/janedoe) | [LinkedIn](https://www.linkedin.com/in/janedoe))
-- Kiran([GitHub](https://github.com/janedoe) | [LinkedIn](https://www.linkedin.com/in/janedoe))
-- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn](https://www.linkedin.com/in/hashita-pusapati-3))
-We welcome contributions from the open-source community to enhance our platform further.
+- The main application page provides links to navigate through different sections, such as Types of Olympics, and the three unique features (Badge Analysis, Sports Predictor, and Timeline).
+- Click on the desired section to explore the information and interact with the available features.
+- The Badge Analysis feature allows users to see the distribution of medals for each country.
+- The Sports Predictor feature takes user inputs or uses default values to predict the number of medals countries might secure in the next Olympics.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+  
 ## Acknowledgments
 
-We extend our gratitude to the Olympic Committee, sports enthusiasts, and the open-source community for their valuable support and resources that made this project possible.
+- The project was inspired by the Geekathon under Geek-Olympics conducted GeeksForGeeks Portal and also driven by passion for sports and the desire to explore the history of the Olympics.
 
-![Olympics Banner](/path/to/olympics-banner.png)
+- Special thanks to the Mapbox team for providing the APIs to create interactive maps.
 
----
+## Contact
+The Olympics Website is the collective effort of the following contributors:
 
-Thank you for using the Olympics Website! We are excited to provide you with a comprehensive platform for exploring Olympic data and predictions. If you have any feedback or suggestions, feel free to reach out to us. Happy exploring and may the spirit of sportsmanship always be with you!
+- Srikar Tenneti([GitHub]([https://github.com/janedoe](https://github.com/tinkten7)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/srikar-tenneti-849522235/)))
+- Sai Gowtham Puvvala ([GitHub]([https://github.com/johnsmith](https://github.com/p-sai-gowtham)) | [LinkedIn]([https://www.linkedin.com/in/johnsmith](https://www.linkedin.com/in/sai-gowtham-puvvula-607109214/)))
+- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn]([https://www.linkedin.com/in/hashita-pusapati-3](https://www.linkedin.com/in/hashita-pusapati-315194226/)))
+- Sudhish Amiti([GitHub]([https://github.com/janedoe](https://github.com/SudhishAmiti)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/sudhish-amiti-491805224/)))
+- Kiran Kumar Daniyala([GitHub]([https://github.com/janedoe](https://github.com/kirankumar04)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/)https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/))
+
+
+Happy Olympics Exploration!
+
+
+
+
