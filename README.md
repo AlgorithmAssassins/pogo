@@ -52,7 +52,7 @@ The Olympics Website is the collective effort of the following contributors:
 - Sudhish Amiti([GitHub](https://github.com/SudhishAmiti) | [LinkedIn](https://www.linkedin.com/in/sudhish-amiti-491805224/))
 - Kiran Kumar Daniyala([GitHub](https://github.com/kirankumar04) | [LinkedIn](https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/))
 
-##Happy Olympics Exploration!
+## Happy Olympics Exploration!
 
 
 
