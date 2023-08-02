@@ -46,12 +46,11 @@ The project is built using the following technologies:
 ## Contact
 The Olympics Website is the collective effort of the following contributors:
 
-- Srikar Tenneti([GitHub]([https://github.com/janedoe](https://github.com/tinkten7)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/srikar-tenneti-849522235/)))
-- Sai Gowtham Puvvala ([GitHub]([https://github.com/johnsmith](https://github.com/p-sai-gowtham)) | [LinkedIn]([https://www.linkedin.com/in/johnsmith](https://www.linkedin.com/in/sai-gowtham-puvvula-607109214/)))
-- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn]([https://www.linkedin.com/in/hashita-pusapati-3](https://www.linkedin.com/in/hashita-pusapati-315194226/)))
-- Sudhish Amiti([GitHub]([https://github.com/janedoe](https://github.com/SudhishAmiti)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/sudhish-amiti-491805224/)))
-- Kiran Kumar Daniyala([GitHub]([https://github.com/janedoe](https://github.com/kirankumar04)) | [LinkedIn]([https://www.linkedin.com/in/janedoe](https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/)https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/))
-
+- Srikar Tenneti([GitHub](https://github.com/tinkten7) | [LinkedIn](https://www.linkedin.com/in/srikar-tenneti-849522235/)))
+- Sai Gowtham Puvvala ([GitHub]((https://github.com/p-sai-gowtham)) | [LinkedIn]((https://www.linkedin.com/in/sai-gowtham-puvvula-607109214/)))
+- Hashita Pusapati([GitHub](https://github.com/hashitapusapati) | [LinkedIn]((https://www.linkedin.com/in/hashita-pusapati-315194226/)))
+- Sudhish Amiti([GitHub](https://github.com/SudhishAmiti)) | [LinkedIn]((https://www.linkedin.com/in/sudhish-amiti-491805224/)))
+- Kiran Kumar Daniyala([GitHub](https://github.com/kirankumar04) | [LinkedIn](https://www.linkedin.com/in/kiran-kumar-daniyala-6477b5263/)))
 
 Happy Olympics Exploration!
 
